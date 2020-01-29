@@ -1,0 +1,287 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+body {
+    background-color: rgb(109, 163, 216);   
+}
+
+.piano {
+   position: relative;
+   top: 300px;
+   left: 400px;  
+}
+
+.all-black-keys {
+    background-color: black;
+    width: 699px;
+    height: 90px;
+    position: relative;
+    bottom: 375px;
+    left: 27px;
+    box-shadow: -1px 5px #EDE3E3, -2px 2px black, -1px 5px black; 
+    border: 1px solid #EDE3E3;
+    border-radius: 5px;
+}
+
+.pressed {
+    box-shadow: 0 3px 4px 0 lightgray ;
+}
+
+/*****************************Black Keys***************************************/
+
+.black-keys-cSharp {
+    background-color: black;
+    height: 200px;
+    width: 65px;
+    color: white;
+    position: relative;
+    bottom: 375px;
+    left: 95px;
+    box-shadow: -1px 3px black, -2px 2px #EDE3E3, -1px 5px #EDE3E3; 
+    border: 1px solid CEC7C7;
+    border-radius: 5px;
+    
+}
+
+.black-keys-dSharp {
+    background-color: black;
+    height: 200px;
+    width: 65px;
+    color: white;
+    position: relative;
+    bottom: 375px;
+    left: 125px;
+    box-shadow: -1px 3px black, -2px 2px #EDE3E3, -1px 5px #EDE3E3; 
+    border: 1px solid CEC7C7;
+    border-radius: 5px;
+   
+}
+
+.black-keys-fSharp {
+    background-color: black;
+    height: 200px;
+    width: 65px;
+    color: white;
+    position: relative;
+    bottom: 375px;
+    left: 255px;
+    box-shadow: -1px 3px black, -2px 2px #EDE3E3, -1px 5px #EDE3E3; 
+    border: 1px solid CEC7C7;
+    border-radius: 5px;
+}
+
+.black-keys-gSharp {
+    background-color: black;
+    height: 200px;
+    width: 65px;
+    color: white;
+    position: relative;
+    bottom: 375px;
+    left: 285px;
+    box-shadow: -1px 3px black, -2px 2px #EDE3E3, -1px 5px #EDE3E3; 
+    border: 1px solid CEC7C7;
+    border-radius: 5px;
+}
+
+.black-keys-aSharp {
+    background-color: black;
+    height: 200px;
+    width: 65px;
+    color: white;
+    position: relative;
+    bottom: 375px;
+    left: 315px;
+    box-shadow: -1px 3px black, -2px 2px #EDE3E3, -1px 5px #EDE3E3; 
+    border: 1px solid CEC7C7;
+    border-radius: 5px;
+    
+}
+
+/********************************White Keys**************************************/
+
+.white-keys-c {
+    background-color: white;
+    height: 350px;
+    width: 100px;
+    position: relative;
+    top: 25px;
+    left: 30px;
+    box-shadow: -1px 5px #CEC7C7, -2px 2px #EDE3E3, -1px 5px #EDE3E3; 
+    border: 1px solid #CEC7C7;
+    border-radius: 5px;      
+}
+
+.white-keys-d {
+    background-color: white;
+    height: 350px;
+    width: 100px;
+    position: relative;
+    top: 25px;
+    left: 25px;
+    box-shadow: -1px 5px #CEC7C7, -2px 2px #EDE3E3, -1px 5px #EDE3E3; 
+    border: 1px solid #CEC7C7;
+    border-radius: 5px;
+}
+
+.white-keys-e {
+    background-color: white;
+    height: 350px;
+    width: 100px;
+    position: relative;
+    top: 25px;
+    left: 20px;
+    box-shadow: -1px 5px #CEC7C7, -2px 2px #EDE3E3, -1px 5px #EDE3E3; 
+    border: 1px solid #CEC7C7;
+    border-radius: 5px;
+}
+
+.white-keys-f {
+    background-color: white;
+    height: 350px;
+    width: 100px;
+    position: relative;
+    top: 25px;
+    left: 15px;
+    box-shadow: -1px 5px #CEC7C7, -2px 2px #EDE3E3, -1px 5px #EDE3E3; 
+    border: 1px solid #CEC7C7;
+    border-radius: 5px;
+}
+
+.white-keys-g {
+    background-color: white;
+    height: 350px;
+    width: 100px;
+    position: relative;
+    top: 25px;
+    left: 12px;
+    box-shadow: -1px 5px #CEC7C7, -2px 2px #EDE3E3, -1px 5px #EDE3E3; 
+    border: 1px solid #CEC7C7;
+    border-radius: 5px;
+}
+
+.white-keys-a {
+    background-color: white;
+    height: 350px;
+    width: 100px;
+    position: relative;
+    top: 25px;
+    left: 5px;
+    box-shadow: -1px 5px #CEC7C7, -2px 2px #EDE3E3, -1px 5px #EDE3E3; 
+    border: 1px solid #CEC7C7;
+    border-radius: 5px;
+}
+
+.white-keys-b {
+    background-color: white;
+    height: 350px;
+    width: 100px;
+    position: relative;
+    top: 25px;
+    box-shadow: -1px 5px #CEC7C7, -2px 2px #EDE3E3, -1px 5px #EDE3E3; 
+    border: 1px solid #CEC7C7;
+    border-radius: 5px;
+}
+
+/*********************Active White key Properties********************************/
+
+.white-keys-c:active {
+    box-shadow: 0 5px rgb(76, 76, 85);
+    transform: translate(3px);
+}
+
+
+.white-keys-d:active {
+    box-shadow: 0 5px rgb(76, 76, 85);
+    transform: translate(3px);
+}
+
+.white-keys-e:active {
+    box-shadow: 0 5px rgb(76, 76, 85);
+    transform: translate(3px);
+}
+
+.white-keys-f:active {
+    box-shadow: 0 5px rgb(76, 76, 85);
+    transform: translate(3px);
+}
+
+.white-keys-g:active {
+    box-shadow: 0 5px rgb(76, 76, 85);
+    transform: translate(3px);
+}
+
+.white-keys-a:active {
+    box-shadow: 0 5px rgb(76, 76, 85);
+    transform: translate(3px);
+}
+
+.white-keys-b:active {
+    box-shadow: 0 5px rgb(76, 76, 85);
+    transform: translate(2px);
+}
+
+/*********************Active Black key Properties********************************/
+
+.black-keys-cSharp:active {
+    box-shadow: 0 2px rgb(76, 76, 85);
+    transform: translate(2px);
+}
+
+.black-keys-dSharp:active {
+    box-shadow: 0 2px rgb(76, 76, 85);
+    transform: translate(2px);
+}
+
+.black-keys-fSharp:active {
+    box-shadow: 0 2px rgb(76, 76, 85);
+    transform: translate(2px);
+}
+
+.black-keys-gSharp:active {
+    box-shadow: 0 2px rgb(76, 76, 85);
+    transform: translate(2px);
+}
+
+.black-keys-aSharp:active {
+    box-shadow: 0 2px rgb(76, 76, 85);
+    transform: translate(2px);
+}
+
+/**********************div letter positioning********************************/
+
+.c {
+    position: relative;
+    top: 120px;
+}
+
+.d {
+    position: relative;
+    top: 120px;
+}
+
+.e {
+    position: relative;
+    top: 120px;
+}
+
+.f {
+    position: relative;
+    top: 120px;
+}
+
+.g {
+    position: relative;
+    top: 120px;
+}
+
+.a {
+    position: relative;
+    top: 120px;
+}
+
+.b {
+    position: relative;
+    top: 120px;
+}
